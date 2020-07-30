@@ -5,6 +5,7 @@ ruby "2.6.3"
 
 gem "rails", "~> 6.0", ">= 6.0.3"
 
+gem "bcrypt", "3.1.13"
 gem "bootsnap", ">= 1.1.0", require: false
 gem "bootstrap-sass", "3.4.1"
 gem "coffee-rails", "~> 4.2"
