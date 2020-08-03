@@ -72,5 +72,7 @@ vi:
       password: "Mật khẩu"
       new_user: "Người dùng mới?"
       signup_now: "Đăng ký ngay!"
+      remember_me: "Nhớ tôi"
+      remember_message: "Nhớ tôi trên máy tính"
     create:
       error_login: "Lỗi email hoặc mật khẩu"
