@@ -2,10 +2,15 @@ en:
   hello: "Hello world"
   title: "Ruby on Rails Tutorial Sample App"
   login: "Log in"
+  logout: "Log out"
   signup: "Sign up"
   contact: "Contact"
   home: "Home"
   help: "Help"
+  account: "Account"
+  user_list: "Users"
+  profile: "Profile"
+  settings: "Settings"
   michaelhartl: "Michael Hartl"
   layouts:
     footer:
@@ -64,3 +69,11 @@ en:
       password: "Password"
       confirmation: "Password Confirmation"
       create_account: "Create my account"
+  sessions:
+    new:
+      email: "Email"
+      password: "Password"
+      new_user: "New user?"
+      signup_now: "Sign up now!"
+    create:
+      error_login: "Invalid email/password combination"
