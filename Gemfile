@@ -7,10 +7,13 @@ gem "rails", "~> 6.0", ">= 6.0.3"
 
 gem "bcrypt", "3.1.13"
 gem "bootsnap", ">= 1.1.0", require: false
+gem "bootstrap-kaminari-views"
 gem "bootstrap-sass", "3.4.1"
 gem "coffee-rails", "~> 4.2"
 gem "config", "~> 1.7"
+gem "faker", "2.1.2"
 gem "jbuilder", "~> 2.5"
+gem "kaminari"
 gem "mysql2"
 gem "puma", "~> 3.11"
 gem "rails-i18n", "~> 6.0.0"
