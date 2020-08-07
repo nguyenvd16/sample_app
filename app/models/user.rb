@@ -1,6 +1,7 @@
 class User < ApplicationRecord
   VALID_EMAIL_REGEX = Settings.user.email_regex
   USERS_PARAMS = %i(name email password password_confirmation).freeze
+  RESET_PASSWORD_USERS_PARAMS = %i(password password_confirmation).freeze
 
   validates :name, presence: true,
     length: {maximum: Settings.user.username_maximum}
@@ -16,7 +17,7 @@ class User < ApplicationRecord
 
   has_secure_password
 
-  attr_accessor :remember_token, :activation_token
+  attr_accessor :remember_token, :activation_token, :reset_token
 
   before_create :create_activation_digest
   before_save :email_downcase
@@ -42,7 +43,7 @@ class User < ApplicationRecord
   end
 
   def authenticated? attribute, token
-    digest = send("#{attribute}_digest")
+    digest = send "#{attribute}_digest"
     return false unless digest
 
     BCrypt::Password.new(digest).is_password? token
@@ -60,7 +61,24 @@ class User < ApplicationRecord
     UserMailer.account_activation(self).deliver_now
   end
 
+  def create_reset_digest
+    self.reset_token = User.new_token
+    update reset_digest: User.digest(reset_token), reset_sent_at: Time.zone.now
+  end
+
+  def send_password_reset_email
+    UserMailer.password_reset(self).deliver_now
+  end
+
+  def password_reset_expired?
+    reset_sent_at < Settings.time.expried.hours.ago
+  end
+
   private
+
+  def user_params
+    params.require(:user).permit :password, :password_confirmation
+  end
 
   def email_downcase
     self.email = email.downcase

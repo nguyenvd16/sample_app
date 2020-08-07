@@ -94,6 +94,7 @@ vi:
       signup_now: "Đăng ký ngay!"
       remember_me: "Nhớ tôi"
       remember_message: "Nhớ tôi trên máy tính"
+      forgot_password: "Quên mật khẩu"
     create:
       error_login: "Lỗi email hoặc mật khẩu"
       success_login: "Đăng nhập thành công"
@@ -110,6 +111,27 @@ vi:
       account_activated: "Tài khoản đã kích hoạt!"
       invalid_activation: "Kích hoạt không hợp lệ"
       greeting: "Xin chào"
-      subject: "Kích hoạt tài khoản"
+      account_activation_subject: "Kích hoạt tài khoản"
+      password_reset_subject: "Đặt lại mật khẩu"
       account_not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra trong mail"
       welcome: "Chào mừng đến với ứng dụng mẫu, click đường dẫn để kích hoạt tài khoản:"
+      reset_password_link_below: "Để đặt lại mật khẩu, hãy click vào đường dẫn bên dưới:"
+      reset_password_message: "Link này sẽ có hiệu lực trong vòng 2 giờ."
+      reset_password: "Đặt lại mật khẩu"
+  password_resets:
+    new:
+      forgot_password: "Quên mật khẩu"
+      email: "Email"
+      submit: "Gửi"
+    create:
+      email_sent_message: "Email đã được gửi kèm hướng dẫn đặt lại mật khẩu"
+      email_not_found: "Không tìm thấy email"
+    edit:
+      reset_password: "Reset password"
+      password: "Password"
+      password_confirmation: "Confirmation"
+      update_password: "Update password"
+    update:
+      password_has_been_reset: "Password has been reset."
+      canot_empty: "can't be empty"
+      expired: "Mật khẩu hết hạn"

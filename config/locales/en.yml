@@ -97,6 +97,7 @@ en:
       signup_now: "Sign up now!"
       remember_me: "Remember me"
       remember_message: "Remember me on this computer"
+      forgot_password: "Forgot password"
     create:
       error_login: "Invalid email/password combination"
       success_login: "Logged in successfully"
@@ -113,6 +114,27 @@ en:
       account_activated: "Account activated!"
       invalid_activation: "Invalid activation"
       greeting: "Hi"
-      subject: "Account activation"
+      account_activation_subject: "Account activation"
+      password_reset_subject: "Password reset"
       account_not_activated: "Account not activated. Check your email for the activation link."
       welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      reset_password_link_below: "To reset your password click the link below:"
+      reset_password_message: "This link will expire in two hours."
+      reset_password: "Reset password"
+  password_resets:
+    new:
+      forgot_password: "Forgot password"
+      email: "Email"
+      submit: "Submit"
+    create:
+      email_sent_message: "Email sent with password reset instructions"
+      email_not_found: "Email address not found"
+    edit:
+      reset_password: "Reset password"
+      password: "Password"
+      password_confirmation: "Confirmation"
+      update_password: "Update password"
+    update:
+      password_has_been_reset: "Password has been reset."
+      canot_empty: "can't be empty"
+      expired: "Password reset has expired."
