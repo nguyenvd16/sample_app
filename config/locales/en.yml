@@ -107,3 +107,12 @@ en:
       previous: "‹ PREV"
       next: "NEXT ›"
       truncate: "…"
+  auths:
+    mail:
+      notice: "Please check your email to activate your account."
+      account_activated: "Account activated!"
+      invalid_activation: "Invalid activation"
+      greeting: "Hi"
+      subject: "Account activation"
+      account_not_activated: "Account not activated. Check your email for the activation link."
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
