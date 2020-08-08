@@ -28,6 +28,7 @@ vi:
       home_ror_tutorial: "Ruby on Rails"
       home_sample_app: "."
       home_signup: "Đăng ký ngay!"
+      micropost_feed: "Nguồn bài đăng"
     help:
       title: "Trợ giúp"
       help_ror_tutorial: "Nhận trợ giúp về hướng dẫn RoR tại trang "
@@ -65,6 +66,7 @@ vi:
       welcome_message: "Chào mừng đến với ứng dụng mẫu!"
     show:
       fail_message: "Không tìm thấy người dùng"
+      microposts: "Bài đăng"
     new:
       signup_message: "Đây là trang đăng nhập cho người dùng mới."
       name: "Tên"
@@ -135,3 +137,22 @@ vi:
       password_has_been_reset: "Password has been reset."
       canot_empty: "can't be empty"
       expired: "Mật khẩu hết hạn"
+  microposts:
+    _micropost:
+      posted: "Được đăng"
+      ago: "trước"
+      delete: "Xóa"
+      you_sure: "Bạn đã chắc chắn?"
+    create:
+      micropost_created: "Bài đăng đã được tạo"
+      view_my_profile: "xem hồ sơ của bạn"
+      compose_new_micropost: "Soạn bài đăng mới..."
+      post: "Đăng"
+      micropost: "Bài đăng"
+      micropost_fail: "Tạo bài đăng thất bại"
+    destroy:
+      micropost_deleted: "Bài đăng đã được xóa"
+    image:
+      valid_image_format: "phải là một định dạng hình ảnh hợp lệ"
+      valid_image_size: "phải nhỏ hơn 5MB"
+      image_size: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
