@@ -5,6 +5,7 @@ ruby "2.6.3"
 
 gem "rails", "~> 6.0", ">= 6.0.3"
 
+gem "active_storage_validations"
 gem "bcrypt", "3.1.13"
 gem "bootsnap", ">= 1.1.0", require: false
 gem "bootstrap-kaminari-views"
@@ -13,8 +14,10 @@ gem "coffee-rails", "~> 4.2"
 gem "config", "~> 1.7"
 gem "faker", "2.1.2"
 gem "figaro"
+gem "image_processing"
 gem "jbuilder", "~> 2.5"
 gem "kaminari"
+gem "mini_magick"
 gem "mysql2"
 gem "puma", "~> 3.11"
 gem "rails-i18n", "~> 6.0.0"

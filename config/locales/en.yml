@@ -28,6 +28,7 @@ en:
       home_ror_tutorial: "Ruby on Rails Tutorial"
       home_sample_app: " sample application."
       home_signup: "Sign up now!"
+      micropost_feed: "Micropost Feed"
     help:
       title: "Help"
       help_ror_tutorial: "Get help on the Ruby on Rails Tutorial at the "
@@ -65,6 +66,7 @@ en:
       welcome_message: "Welcome to the Sample App!"
     show:
       fail_message: "User not found"
+      microposts: "Microposts"
     new:
       signup_message: "This will be a signup page for new users."
       welcome_message: "Welcome to the Sample App!"
@@ -138,3 +140,22 @@ en:
       password_has_been_reset: "Password has been reset."
       canot_empty: "can't be empty"
       expired: "Password reset has expired."
+  microposts:
+    _micropost:
+      posted: "Posted"
+      ago: "ago"
+      delete: "Delete"
+      you_sure: "You sure?"
+    create:
+      micropost_created: "Micropost created!"
+      view_my_profile: "view my profile"
+      compose_new_micropost: "Compose new micropost..."
+      post: "Post"
+      micropost: "micropost"
+      micropost_fail: "Create micropost failed"
+    destroy:
+      micropost_deleted: "Micropost deleted"
+    image:
+      valid_image_format: "must be a valid image format"
+      valid_image_size: "should be less than 5MB"
+      image_size: "Maximum file size is 5MB. Please choose a smaller file."
