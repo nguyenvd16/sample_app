@@ -29,6 +29,10 @@ vi:
       home_sample_app: "."
       home_signup: "Đăng ký ngay!"
       micropost_feed: "Nguồn bài đăng"
+      following: "đang theo dõi"
+      followers: "người theo dõi"
+      follow: "Theo dõi"
+      unfollow: "Hủy theo dõi"
     help:
       title: "Trợ giúp"
       help_ror_tutorial: "Nhận trợ giúp về hướng dẫn RoR tại trang "
@@ -156,3 +160,8 @@ vi:
       valid_image_format: "phải là một định dạng hình ảnh hợp lệ"
       valid_image_size: "phải nhỏ hơn 5MB"
       image_size: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
+  relationships:
+    create:
+      user_not_exist: "Người dùng không tồn tại"
+    destroy:
+      user_not_exist: "Người dùng không tồn tại"

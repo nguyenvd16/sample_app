@@ -29,6 +29,10 @@ en:
       home_sample_app: " sample application."
       home_signup: "Sign up now!"
       micropost_feed: "Micropost Feed"
+      following: "following"
+      followers: "followers"
+      follow: "Follow"
+      unfollow: "Unfollow"
     help:
       title: "Help"
       help_ror_tutorial: "Get help on the Ruby on Rails Tutorial at the "
@@ -159,3 +163,8 @@ en:
       valid_image_format: "must be a valid image format"
       valid_image_size: "should be less than 5MB"
       image_size: "Maximum file size is 5MB. Please choose a smaller file."
+  relationships:
+    create:
+      user_not_exist: "User not exist"
+    destroy:
+      user_not_exist: "User not exist"
